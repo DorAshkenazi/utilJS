@@ -1,0 +1,16 @@
+body {
+  background-color: lightblue;
+}
+
+#back-to-top {
+  width: 10vw;
+  height: 4vh;
+  position: fixed;
+  bottom: 3em;
+  right: 3em;
+  opacity: 0;
+}
+
+#back-to-top.visible {
+  opacity: 1;
+}
