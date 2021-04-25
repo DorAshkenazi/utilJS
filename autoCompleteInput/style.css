@@ -1,0 +1,26 @@
+.container {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-rows: 1fr 3fr;
+  height: 100vh;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form > * {
+  margin: 0.5vh;
+}
+
+#autocomplete-results {
+  align-self: start;
+  justify-self: start;
+  opacity: 0;
+}
+
+#autocomplete-results.visible {
+    opacity: 1;
+}
